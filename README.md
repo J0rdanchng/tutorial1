@@ -24,8 +24,46 @@ Students may be called for an interview to explain and demonstrate their underst
 
 ### Part (a)
 
-Answer here.
+mkdir hello-world
+mkdir hello-world/project
+rm -r hello-world
+
+## Part (b)
+The ls -l command displays a detailed list of files and folders in long format, showing permissions, owners, sizes, and dates.
 
 ## Q2
 
-Answer here.
+cd ~
+ln -s /bin/ls myls
+./myls -l
+
+# Q3 
+## Part (c)
+
+![alt text](<Active SSH session-3.png>)
+
+
+### (d) Transfer `hello.txt`
+
+I exited the remote server and created the file locally:
+
+```bash
+exit
+printf "Hello from Jordan\n" > hello.txt
+ls -l hello.txt
+```
+
+I copied it to my home directory on `stu` through the jump host:
+
+```bash
+scp -J jordan33@sjump.comp.nus.edu.sg hello.txt jordan33@stu.comp.nus.edu.sg:~
+```
+
+I connected to `stu` again and verified that the file had arrived:
+
+```bash
+ssh -J jordan33@sjump.comp.nus.edu.sg jordan33@stu.comp.nus.edu.sg
+ls -l hello.txt. 
+```
+
+
