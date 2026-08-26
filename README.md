@@ -126,9 +126,3 @@ Improvement: The navigation links let an interviewer jump directly to important 
 
 
 
-# Q6 screenshots
-
-![alt text](<Screenshot 2026-08-26 at 10.19.16 PM.png>) ![alt text](<Screenshot 2026-08-26 at 10.26.49 PM.png>) ![alt text](<Screenshot 2026-08-26 at 10.27.27 PM.png>)
-
-
-
