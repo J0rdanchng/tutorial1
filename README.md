@@ -67,3 +67,62 @@ ls -l hello.txt.
 ```
 
 
+## Q5: UX Reflection
+
+### Psychology
+Question: How does my portfolio create a positive first impression?
+
+Answer: My page uses a clear heading with my name and a short description at the top, & the clean layout and consistent sections will help people understand that it is a professional student portfolio
+
+### Usability
+Question: How easily can an interviewer find key information?
+
+Answer: My page separates education, skills, projects, and contact information into clearly titled section,so an interviewer will be able to scan the headings and locate the information they need without searching through a long paragraph.
+
+### Design
+Question: Is the visual hierarchy clear?
+
+Answer: Each section is placed in a separate card with spacing and headings. The dark-mode button is visible at the top, and the text has enough contrast against the background to remain readable.
+
+### Copywriting
+Question: Is my introduction clear and concise?
+
+Answer: The introduction briefly explains that I am a student interested in technology, web development, and problem-solving, which avoids unnecessary long sentences and gives visitors a quick overview.
+
+### Analysis
+Question: How would I evaluate whether the portfolio works well?
+
+Answer: I would ask classmates or an interviewer to find my skills and projects, then observe whether they can do so quickly, then use their comments to improve section labels, content order, and readability.
+
+
+
+### Improved Wireframe
+
+```text
++--------------------------------------+
+| NAV: About | Skills | Projects |      |
+|      Contact                          |
++--------------------------------------+
+| Jordan                                |
+| Student Portfolio                     |
+| [ Toggle Dark Mode ]                  |
++--------------------------------------+
+| ABOUT ME                              |
+| Short introduction                    |
++--------------------------------------+
+| EDUCATION                             |
++--------------------------------------+
+| SKILLS                                |
++--------------------------------------+
+| PROJECTS                              |
++--------------------------------------+
+| CONTACT                               |
++--------------------------------------+
+| FOOTER                                |
++--------------------------------------+
+```
+
+Improvement: The navigation links let an interviewer jump directly to important sections instead of scrolling through the whole page.
+
+
+
